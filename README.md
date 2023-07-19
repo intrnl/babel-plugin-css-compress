@@ -23,14 +23,14 @@ const classRoot = css`
 	flex-direction: column;
 
 	& .bar {
-		color: ${color}
+		color: ${color};
 	}
 
 	& h1 {
-    &:hover {
-      animation: ${rotate} 4s infinite;
-    }
-  }
+		&:hover {
+			animation: ${rotate} 4s infinite;
+		}
+	}
 `;
 
 const foo = globalStyle`
