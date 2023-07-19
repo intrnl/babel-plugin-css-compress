@@ -22,6 +22,12 @@ const classRoot = css\`
 	& .bar {
 		color: \${color}
 	}
+
+	& h1 {
+    &:hover {
+      animation: \${rotate} 4s infinite;
+    }
+  }
 \`;
 
 const foo = globalStyle\`

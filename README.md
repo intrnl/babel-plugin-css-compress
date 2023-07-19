@@ -18,8 +18,19 @@ const rotate = keyframes`
 
 const classRoot = css`
 	color: ${color};
+	border: 1px dotted ${color};
 	display: flex;
 	flex-direction: column;
+
+	& .bar {
+		color: ${color}
+	}
+
+	& h1 {
+    &:hover {
+      animation: ${rotate} 4s infinite;
+    }
+  }
 `;
 
 const foo = globalStyle`
@@ -34,7 +45,7 @@ const foo = globalStyle`
 ```js
 const color = '#ff1100';
 const rotate = keyframes`0%{transform:rotate(0)}to{transform:rotate(360deg)}`;
-const classRoot = css`color:#f10;display:flex;flex-direction:column`;
+const classRoot = css`color:#f10;border:1px dotted #ff1100;display:flex;flex-direction:column;.bar{color:#f10}& h1{&:hover{animation:${rotate} 4s infinite}}`;
 const foo = globalStyle`.foo{color:#f10}`;
 ```
 
