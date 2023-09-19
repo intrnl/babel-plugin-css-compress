@@ -17,12 +17,12 @@
 	},
 	"dependencies": {
 		"@babel/helper-plugin-utils": "^7.22.5",
-		"esbuild": "^0.18.14",
+		"esbuild": "^0.18.20",
 		"nanoid": "^4.0.2",
-		"prettier": "^3.0.0"
+		"prettier": "^3.0.3"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.22.9",
-		"@babel/types": "^7.22.5"
+		"@babel/core": "^7.22.20",
+		"@babel/types": "^7.22.19"
 	}
 }
