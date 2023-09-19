@@ -17,8 +17,8 @@
 	},
 	"dependencies": {
 		"@babel/helper-plugin-utils": "^7.22.5",
-		"esbuild": "^0.18.20",
-		"nanoid": "^4.0.2",
+		"esbuild": "^0.19.3",
+		"nanoid": "^5.0.1",
 		"prettier": "^3.0.3"
 	},
 	"devDependencies": {
